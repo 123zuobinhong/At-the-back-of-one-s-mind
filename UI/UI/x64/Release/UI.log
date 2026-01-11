@@ -1,0 +1,31 @@
+﻿  IOinfile.cpp
+  main.cpp
+D:\something_about_me\my_c++\my_projects\UI\IOinfile.cpp(117,7): error C2143: 语法错误: 缺少“;”(在“)”的前面)
+D:\something_about_me\my_c++\my_projects\UI\IOinfile.cpp(117,8): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\something_about_me\my_c++\my_projects\UI\IOinfile.cpp(117,8): error C2143: 语法错误: 缺少“)”(在“{”的前面)
+  start.cpp
+  user.cpp
+D:\something_about_me\my_c++\my_projects\UI\user.cpp(17,32): error C2511: “std::vector<std::string,std::allocator<std::string>> USERS::User::iofile(USERS::fileio,std::string,bool,std::vector<std::string,std::allocator<std::string>>)”:“USERS::User”中没有找到重载的成员函数
+      D:\something_about_me\my_c++\my_projects\UI\user.h(12,8):
+      参见“USERS::User”的声明
+  
+D:\something_about_me\my_c++\my_projects\UI\user.cpp(22,8): error C2665: “file::open”: 没有重载函数可以转换所有参数类型
+      D:\something_about_me\my_c++\my_projects\UI\IOinfile.h(11,27):
+      可能是“std::vector<std::string,std::allocator<std::string>> file::open(std::string,std::vector<std::string,std::allocator<std::string>>,file::MODE,bool)”
+          D:\something_about_me\my_c++\my_projects\UI\user.cpp(22,8):
+          “std::vector<std::string,std::allocator<std::string>> file::open(std::string,std::vector<std::string,std::allocator<std::string>>,file::MODE,bool)”: 无法将参数 2 从“file::MODE”转换为“std::vector<std::string,std::allocator<std::string>>”
+              D:\something_about_me\my_c++\my_projects\UI\user.cpp(22,30):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\something_about_me\my_c++\my_projects\UI\user.cpp(22,8):
+      尝试匹配参数列表“(std::string, file::MODE, bool)”时
+  
+D:\something_about_me\my_c++\my_projects\UI\user.cpp(25,8): error C2665: “file::open”: 没有重载函数可以转换所有参数类型
+      D:\something_about_me\my_c++\my_projects\UI\IOinfile.h(11,27):
+      可能是“std::vector<std::string,std::allocator<std::string>> file::open(std::string,std::vector<std::string,std::allocator<std::string>>,file::MODE,bool)”
+          D:\something_about_me\my_c++\my_projects\UI\user.cpp(25,8):
+          “std::vector<std::string,std::allocator<std::string>> file::open(std::string,std::vector<std::string,std::allocator<std::string>>,file::MODE,bool)”: 无法将参数 2 从“file::MODE”转换为“std::vector<std::string,std::allocator<std::string>>”
+              D:\something_about_me\my_c++\my_projects\UI\user.cpp(25,30):
+              没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+      D:\something_about_me\my_c++\my_projects\UI\user.cpp(25,8):
+      尝试匹配参数列表“(std::string, file::MODE)”时
+  

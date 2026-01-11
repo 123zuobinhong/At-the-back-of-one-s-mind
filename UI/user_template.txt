@@ -1,0 +1,6 @@
+NAME : XXX
+PASSWORD : XXX
+
+XXX 可以替换为任意字符串，例如：
+NAME : admin
+PASSWORD : 000000
